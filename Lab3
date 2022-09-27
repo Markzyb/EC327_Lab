@@ -1,0 +1,29 @@
+# include <iostream>
+
+using namespace std;
+int main(void){
+
+int Start = 0;
+int Stop = 0;
+cout << "Start =";
+cin >> Start;
+cout << "Stop =";
+cout >> Stop;
+
+if(Start < Stop)
+{
+    for (int i = 0; i <= Stop; i++)
+            Start = Start+1;
+            cout << Start;
+    return 0
+else if (Start > Stop)
+    {
+       for (int i = 0; i <= Stop; i++)
+            Stop = Stop - 1;
+            cout << Stop;
+    return 0
+    }
+else
+    cout << "Bye,bye!"
+    return 0
+}
